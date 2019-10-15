@@ -1,0 +1,36 @@
+html{
+  box-sizing: border-box;
+  background-color: #eee9de;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+  padding: 2em;
+}
+
+.img-box {
+  display: block;
+  text-align: left;
+
+}
+
+h2 {
+  font-family:'Lato', sans-serif, Bold;
+  text-align: left;
+  color: #333;
+  line-height: 1.5;
+  margin: 1.5em;
+}
+
+body {
+  padding-left: 1em;
+  text-align: left;
+}
+
+main {
+  padding-left: 1em;
+}
