@@ -12,15 +12,12 @@ html {
 
 div {
   padding: 2em;
-  max-width: 25em;
   display: inline-block;
 }
 
 img {
   display: block;
   width: 100%;
-  margin: 2rem;
-  padding: 1em;
 }
 
 h2 {
@@ -29,7 +26,6 @@ h2 {
   display: block;
   margin: 1.5rem;
   max-width: 25em;
-  padding-left: .5em;
 }
 
 body {
@@ -41,14 +37,13 @@ body {
 
 p {
   margin: 1.5rem;
-  padding-left: .5em;
   text-align: left;
   display: block;
   max-width: 25em;
 }
 
 .btn {
-  padding: 1em;
+  padding: .5em;
   border-radius: 10px;
   margin: 1.5rem;
   font-family: Lato, sans-serif;
