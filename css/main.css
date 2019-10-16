@@ -12,7 +12,7 @@ html {
 
 div {
   padding: 2em;
-  max-width: inherit;
+  max-width: 25em;
   display: inline-block;
 }
 
@@ -26,26 +26,25 @@ img {
 h2 {
   font-family: Lato, sans-serif, Bold;
   color: #333;
-  line-height: 1.5;
   display: block;
   margin: 1.5rem;
-  max-width: inherit;
+  max-width: 25em;
+  padding-left: .5em;
 }
 
 body {
   margin: 1.5rem;
-  padding-left: 2em;
   text-align: left;
   display: block;
-  max-width: inherit;
+  max-width: 25em;
 }
 
 p {
   margin: 1.5rem;
-  padding-left: 2em;
+  padding-left: .5em;
   text-align: left;
   display: block;
-  max-width: inherit;
+  max-width: 25em;
 }
 
 .btn {
@@ -53,7 +52,7 @@ p {
   border-radius: 10px;
   margin: 1.5rem;
   font-family: Lato, sans-serif;
-  max-width: inherit;
+  max-width: 25em;
   text-align: center;
   color: #666;
   display: inline-block;
