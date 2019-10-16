@@ -3,7 +3,6 @@ html {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   line-height: 1.5;
-  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -11,13 +10,16 @@ html {
 }
 
 section {
-  padding: 3em 1em;
+  padding: 2em 0;
   text-align: center;
 }
 
 div {
   display: inline-block;
   max-width: 25em;
+  text-align: left;
+  padding: 1em;
+  vertical-align: middle;
 }
 
 img {
@@ -28,32 +30,26 @@ img {
 h2 {
   font-family: Lato, sans-serif, Bold;
   color: #333;
-  display: block;
-  margin: 1.5em 0;
+  margin: 0 0 1.5rem;
+  text-align: left;
 }
 
 body {
   margin: 0;
-  text-align: left;
-  display: block;
 }
 
 p {
-  margin: 0 0 1.5em;
+  margin: 0 0 1.5rem;
   text-align: left;
-  display: block;
-  max-width: 25em;
-  font-size: 1rem;
 }
 
 .btn {
   padding: .4em .75em .5em;
-  border-radius: 3px;
-  margin: 1.5rem;
+  border-radius: 4px;
   text-align: center;
   color: #666;
-  display: block;
-  border-color: #333;
+  display: inline-block;
+  border: 2px solid #333;
   background-color: #eee9de;
   text-decoration: none;
 }
