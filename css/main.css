@@ -17,10 +17,11 @@ div {
 }
 
 img {
-  display: block;
+  display: inline-block;
   width: 100%;
-  max-width: inherit;
   margin: 1.5rem;
+  padding: 1em;
+  text-align: left;
 }
 
 h2 {
