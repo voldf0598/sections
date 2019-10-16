@@ -11,15 +11,13 @@ html {
 }
 
 section {
-  padding: 2em 0;
+  padding: 3em 1em;
   text-align: center;
 }
 
 div {
   display: inline-block;
   max-width: 25em;
-  padding: 1em;
-  text-align: left;
 }
 
 img {
@@ -31,7 +29,7 @@ h2 {
   font-family: Lato, sans-serif, Bold;
   color: #333;
   display: block;
-  margin: 0 0 1.5em;
+  margin: 1.5em 0;
 }
 
 body {
@@ -50,12 +48,12 @@ p {
 
 .btn {
   padding: .4em .75em .5em;
-  border-radius: 10px;
+  border-radius: 3px;
   margin: 1.5rem;
-  font-family: Lato, sans-serif;
   text-align: center;
   color: #666;
   display: block;
   border-color: #333;
   background-color: #eee9de;
+  text-decoration: none;
 }
